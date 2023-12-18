@@ -1,0 +1,15 @@
+.sorts {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 90px;
+    padding-bottom: 10px;
+}
+@media screen and (max-width: 768px) {
+    .sorts {
+        display: flex;
+        justify-content: flex-start;
+        margin-right: 0;
+        padding-bottom: 10px;
+    }
+    
+}

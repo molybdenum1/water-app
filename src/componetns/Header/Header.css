@@ -1,0 +1,20 @@
+ header {
+    padding: 0px;
+    background: linear-gradient(to right, #2870a4, #243666);
+    color: white;
+    min-height: 55px;
+}
+.header-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* padding: 16px 20px; */
+    font: 14px;
+}
+
+.icons-right {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100px;
+}

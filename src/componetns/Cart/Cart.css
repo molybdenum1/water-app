@@ -1,0 +1,30 @@
+.cart-wrapper {
+    display: flex;
+    margin: 40px 180px;
+    flex-direction: row;
+    min-height: 45vh;
+    flex-wrap: wrap;
+    /* justify-content: space-between; */
+}
+.cart {
+    /* display: flex; */
+   /* display: flex;
+   flex-direction: row; */
+   flex: 4;
+   margin-right: 35px;
+    
+   /* padding: 15px; */
+}
+.checkout { 
+    flex: 2;
+}
+
+@media screen and (max-width: 768px) {
+    .cart-wrapper {
+        margin: 40px 20px;
+    }
+    .cart {
+        margin-right: 0;
+        font-size: 12px;
+    }
+}

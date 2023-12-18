@@ -1,0 +1,20 @@
+.checkout {
+    background-color: #f2f3f2;
+    display: flex;
+    flex-direction: column;
+    padding: 7px;
+    border-radius: 7px;
+    height: 150px;
+}
+.checkout-total {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-weight: bold;
+    padding: 20px;
+}
+.clear-button {
+    display: flex;
+    justify-content: end;
+    padding: 10px;
+}
